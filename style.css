@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  margin-top: 100px;
+  font-family: arial;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  background: gold;
+  padding: 10px 20px;
+  border: solid 1px purple;
+  margin-right: 10px;
+}
