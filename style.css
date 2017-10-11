@@ -5,19 +5,31 @@
 
 body {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 60px;
   font-family: arial;
+}
+
+.exercise {
+  width: 350px;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  border-bottom: solid 2px #00334e;
 }
 
 h1 {
   padding-bottom: 5px;
 }
 
+h3 {
+  margin: 0px 0px 10px 0px;
+}
+
 .main-title {
   border-bottom: solid 5px #00a78e;
   width: 317px;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: -20px;
 }
 
 button {
