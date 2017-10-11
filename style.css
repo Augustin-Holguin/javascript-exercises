@@ -10,12 +10,22 @@ body {
 }
 
 h1 {
-  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.main-title {
+  border-bottom: solid 5px #00a78e;
+  width: 317px;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 button {
-  background: gold;
+  background: #00a78e;
   padding: 10px 20px;
-  border: solid 1px purple;
+  border: solid 1px #00a78e;
+  border-radius: 10px;
   margin-right: 10px;
+  color: white;
+  font-weight: bold;
 }

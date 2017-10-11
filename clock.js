@@ -12,4 +12,4 @@ var minute = today.getMinutes();
 var second = today.getSeconds();
 
 document.write("Today is : "+dayList[day] + ',' +' '+ date + ' ' + 'of' + ' '+ monthList[month] + ' ' + year +"<br>");
-document.write("Current Time : "+hour + 'h' + " : " + minute + " : " + second);
+document.write("Current Time : "+hour + 'h' + " : " + minute + "m" + " : " + second + "s");
