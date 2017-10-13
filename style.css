@@ -13,8 +13,8 @@ body {
   width: 350px;
   margin: auto;
   margin-top: 50px;
-  padding-bottom: 10px;
-  border-bottom: solid 2px #00334e;
+  padding-top: 10px;
+  border-top: solid 2px #00334e;
 }
 
 h1 {
@@ -26,10 +26,10 @@ h3 {
 }
 
 .main-title {
-  border-bottom: solid 5px #00a78e;
+  border-bottom: solid 5px gold;
   width: 317px;
   margin: auto;
-  margin-bottom: -20px;
+  margin-bottom: 20px;
 }
 
 button {

@@ -9,4 +9,4 @@ var triangleArea = Math.sqrt(perimeter*((perimeter-sideA)*(perimeter-sideB)*(per
 
 var triangleAreaRounded = Math.round(triangleArea);
 
-document.write(triangleAreaRounded);
+document.write("Your triangle has an area of :" + ' ' + triangleAreaRounded);
