@@ -4,9 +4,29 @@
 }
 
 body {
+  background: #f6f6f5;
   text-align: center;
-  margin-top: 60px;
   font-family: arial;
+}
+
+.background-color {
+  margin: auto;
+  width: 600px;
+  background: white;
+  border-left: solid 3px #f0f0f0;
+  border-right: solid 3px #f0f0f0;
+}
+
+.empty {
+  height: 80px;
+}
+
+header {
+  line-height: 50px;
+  background: #f65a5b;
+  color: #f65a5b;
+  position: fixed;
+  width: 100%;
 }
 
 .exercise {
@@ -26,16 +46,16 @@ h3 {
 }
 
 .main-title {
-  border-bottom: solid 5px gold;
+  border-bottom: solid 5px #0169a4;
   width: 317px;
   margin: auto;
   margin-bottom: 20px;
 }
 
 button {
-  background: #00a78e;
+  background: #0169a4;
   padding: 10px 20px;
-  border: solid 1px #00a78e;
+  border: solid 1px #0169a4;
   border-radius: 10px;
   margin-right: 10px;
   color: white;
