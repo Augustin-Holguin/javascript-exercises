@@ -27,6 +27,11 @@ header {
   color: #f65a5b;
   position: fixed;
   width: 100%;
+  box-shadow: 0px 2px 8px 1px #ccc;
+}
+
+header-scroll {
+  color: white;
 }
 
 .exercise {
