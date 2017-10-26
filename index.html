@@ -48,11 +48,14 @@
     <div class="exercise">
       <h3>Calculator</h3>
       <form>
-        <input type="number" name="First number"/><br /><br />
-        <input type="number" name="Second number"/><br />
+        <input id="number1" type="number"/><br /><br />
+        <input id="number2" type="number"/><br />
       </form><br />
-      <button type="button" onClick="">Multiply</button>
-      <button type="button" onClick="">Divide</button>
+      <button type="button" onClick="multiplyBy()">Multiply</button>
+      <button type="button" onClick="divideBy()">Divide</button><br /><br />
+      <p>The Result is : 
+      <span id = "result"></span>
+      </p>
       <script type="text/javascript" src="calculator.js"></script>
     </div>
 
