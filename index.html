@@ -9,84 +9,102 @@
     <header>
       <h2>JavaScript exercices</h2>
     </header>
+
     <div class="background-color">
-    <div class="empty">
-      <!-- whitespace in between header and title -->
-    </div>
-    <div class="main-title">
-      <h1>JavaScript exercises</h1>
-    </div>
 
-    <!-- DATE & TIME -->
-    <div class="exercise">
-      <h3>Date & time</h3>
-      <script type="text/javascript" src="clock.js"></script><br /><br />
-      <button type="button" onClick="window.location.reload();">Refresh time</button>
-    </div>
+      <div class="empty">
+        <!-- whitespace in between header and title -->
+      </div>
 
-    <!-- PRINT PAGE -->
-    <div class="exercise">
-      <h3>Page printer</h3>
-      <button type="button" onClick="print_current_page();">Print page</button>
-      <script type="text/javascript" src="printcontent.js"></script>
-    </div>
+      <div class="main-title">
+        <h1>JavaScript exercises</h1>
+      </div>
 
-    <!-- AREA OF TRIANGLE -->
-    <div class="exercise">
-      <h3>Area of triangle Calculator</h3>
-      <script type="text/javascript" src="triangle.js"></script>
-    </div>
+      <!-- DATE & TIME -->
+      <div class="exercise">
+        <h3>Date & time</h3>
+        <script type="text/javascript" src="clock.js"></script><br /><br />
+        <button type="button" onClick="window.location.reload();">Refresh time</button>
+      </div>
 
-    <!-- GUESSING A NUMBER -->
-    <div class="exercise">
-      <h3>Guess a number between 1 & 10</h3>
-      <button type="button" onClick="result();">Play !</button>
-      <script type="text/javascript" src="numberguess.js"></script>
-    </div>
+      <!-- PRINT PAGE -->
+      <div class="exercise">
+        <h3>Page printer</h3>
+        <button type="button" onClick="print_current_page();">Print page</button>
+        <script type="text/javascript" src="printcontent.js"></script>
+      </div>
 
-    <!-- MULTIPLIER AND DIVIDER -->
-    <div class="exercise">
-      <h3>Calculator</h3>
-      <p>
-        Please enter two numbers you want to multyply of divide
-      </p><br />
-      <form>
-        <input id="number1" type="number"/><br /><br />
-        <input id="number2" type="number"/><br />
-      </form><br />
-      <button type="button" onClick="multiplyBy()">Multiply</button>
-      <button type="button" onClick="divideBy()">Divide</button><br /><br />
-      <p>The Result is :
-      <span id = "result"></span>
-      </p>
-      <script type="text/javascript" src="calculator.js"></script>
-    </div>
+      <!-- AREA OF TRIANGLE -->
+      <div class="exercise">
+        <h3>Area of triangle Calculator</h3>
+        <script type="text/javascript" src="triangle.js"></script>
+      </div>
 
-    <!-- NUMBER REVERSER -->
-    <div class="exercise">
-      <h3>Number reverser</h3>
-      <p>
-        Please enter the number you want to reverse
-      </p><br />
-      <form>
-        <input id="number" type="number"/><br /><br />
-      </form>
-      <button type="button" onClick="numberReverser()">Reverse</button><br /><br />
-      <p>
-      Your reversed number is :
-      <span id="numberReverse"></span>
-      </p>
-      <script type="text/javascript" src="numberreverser.js"></script>
-    </div>
+      <!-- GUESSING A NUMBER -->
+      <div class="exercise">
+        <h3>Guess a number between 1 & 10</h3>
+        <button type="button" onClick="result();">Play !</button>
+        <script type="text/javascript" src="numberguess.js"></script>
+      </div>
 
-    <div class="exercise">
-      <button type="button" onClick="scrollUp()">Back to the top</button>
-      <script type="text/javascript" src="main.js"></script>
-    </div>
+      <!-- MULTIPLIER AND DIVIDER -->
+      <div class="exercise">
+        <h3>Calculator</h3>
+        <p>
+          Please enter two numbers you want to multyply of divide
+        </p><br />
+        <form>
+          <input id="number1" type="number"/><br /><br />
+          <input id="number2" type="number"/><br />
+        </form><br />
+        <button type="button" onClick="multiplyBy()">Multiply</button>
+        <button type="button" onClick="divideBy()">Divide</button><br /><br />
+        <p>The Result is :
+        <span id = "result"></span>
+        </p>
+        <script type="text/javascript" src="calculator.js"></script>
+      </div>
 
-    <div class="empty">
-      <!-- whitespace at the end of the document -->
-    </div>
+      <!-- NUMBER REVERSER -->
+      <div class="exercise">
+        <h3>Number reverser</h3>
+        <p>
+          Please enter the number you want to reverse
+        </p><br />
+        <form>
+          <input id="number" type="number"/><br /><br />
+        </form>
+        <button type="button" onClick="numberReverser()">Reverse</button><br /><br />
+        <p>
+        Your reversed number is :
+        <span id="numberReverse"></span>
+        </p>
+        <script type="text/javascript" src="numberreverser.js"></script>
+      </div>
+
+      <!-- IS THIS STRING A PALINDROME -->
+      <div class="exercise">
+        <h3>Palindrome checker</h3>
+        <p>
+          Please enter the word you want to check
+        </p><br />
+        <form>
+          <input id="palindrome" type="text"/><br /><br />
+        </form>
+        <button type="button" onClick="palindromeChecker()">Check</button><br /><br />
+        <div id="palindromeResult"></div>
+        <script type="text/javascript" src="palindrome.js"></script>
+      </div>
+
+      <!-- GO BACK UP BUTTON -->
+      <div class="exercise">
+        <button type="button" onClick="scrollUp()">Back to the top</button>
+        <script type="text/javascript" src="main.js"></script>
+      </div>
+
+      <div class="empty">
+        <!-- whitespace at the end of the document -->
+      </div>
 
   </div>
   </body>

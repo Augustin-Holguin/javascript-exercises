@@ -57,6 +57,13 @@ h3 {
   margin-bottom: 20px;
 }
 
+input {
+  border: solid 2px gold;
+  border-radius: 5px;
+  height: 20px;
+  text-align: center;
+}
+
 button {
   background: #0169a4;
   padding: 10px 20px;
