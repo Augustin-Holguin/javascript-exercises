@@ -34,6 +34,72 @@ header-scroll {
   color: white;
 }
 
+.main-title {
+  border-bottom: solid 5px gold;
+  color: gold;
+  width: 317px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.bio {
+  position: fixed;
+  box-sizing: border-box;
+  margin-top: 85px;
+  margin-left: 40px;
+  width: 250px;
+  height: 300px;
+  background: white;
+  border-radius: 5px;
+  border: solid 3px #f0f0f0;
+}
+
+.bio img {
+  width: 40%;
+  border-radius: 2px;
+  float: left;
+}
+
+.bio h4 {
+  padding-top: 15px;
+  padding-bottom: 26px;
+  font-size: 1.8em;
+  color: #333333;
+}
+
+.bio p {
+  font-size: 0.9em;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.bio #skills {
+  font-size: 0.8em;
+  padding: 10px 3px 0px 3px;
+  color: #0079c1;
+}
+
+.bio h5 {
+  float: left;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.bio #mail {
+  padding-top: 23px;
+}
+
+.bio #links {
+  padding-top: 10px;
+}
+
+.bio #links i {
+  font-size: 35px;
+  padding-right: 8px;
+  padding-left: 8px;
+  color: #333333;
+}
+
 .exercise {
   width: 350px;
   margin: auto;
@@ -48,14 +114,6 @@ h1 {
 
 h3 {
   margin: 0px 0px 10px 0px;
-}
-
-.main-title {
-  border-bottom: solid 5px gold;
-  color: gold;
-  width: 317px;
-  margin: auto;
-  margin-bottom: 20px;
 }
 
 input {

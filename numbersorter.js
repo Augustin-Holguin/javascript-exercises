@@ -10,7 +10,6 @@ var numberArray = [x,y,z];
 document.getElementById("numberSorted").innerHTML = numberArray.sort(function(a,b) { return a - b; });
 }
 
-
 // Not working with function
 /*
 if (a > y && a > z) {
