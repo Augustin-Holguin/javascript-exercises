@@ -39,7 +39,7 @@ header-scroll {
   margin: auto;
   margin-top: 30px;
   padding-top: 20px;
-  border-top: solid 2px #00334e;
+  border-top: solid 2px #f65a5b;
 }
 
 h1 {
@@ -51,7 +51,8 @@ h3 {
 }
 
 .main-title {
-  border-bottom: solid 5px #0169a4;
+  border-bottom: solid 5px gold;
+  color: gold;
   width: 317px;
   margin: auto;
   margin-bottom: 20px;
