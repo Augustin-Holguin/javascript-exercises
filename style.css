@@ -22,12 +22,25 @@ body {
 }
 
 header {
+  margin: auto;
   line-height: 50px;
   background: #f65a5b;
   color: #f65a5b;
   position: fixed;
   width: 100%;
   box-shadow: 0px 2px 8px 1px #ccc;
+  font-size: 1.3em;
+}
+
+h2 {
+  padding-left: 100px;
+}
+
+header img {
+  padding-top: 15px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  visibility: hidden;
 }
 
 header-scroll {
@@ -35,11 +48,11 @@ header-scroll {
 }
 
 .main-title {
-  border-bottom: solid 5px gold;
   color: #333333;
-  width: 317px;
+  width: 550px;
   margin: auto;
   margin-bottom: 20px;
+  font-size: 1.5em;
 }
 
 .bio {
