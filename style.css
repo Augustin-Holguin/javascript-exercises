@@ -32,10 +32,6 @@ header {
   font-size: 1.3em;
 }
 
-h2 {
-  padding-left: 100px;
-}
-
 header img {
   padding-top: 15px;
   padding-left: 10px;
@@ -75,9 +71,12 @@ header-scroll {
 
 .bio h4 {
   padding-top: 15px;
-  padding-bottom: 26px;
+  padding-bottom: 16.9px;
+  margin-bottom: 8px;
   font-size: 1.8em;
   color: #333333;
+  background: #f0f0f0;
+  border-bottom: solid 3px #cdcdcd;
 }
 
 .bio p {
@@ -119,6 +118,14 @@ header-scroll {
   margin-top: 30px;
   padding-top: 20px;
   border-top: solid 2px #f65a5b;
+}
+
+.subtitle-section {
+  background: #f65a5b;
+  color: white;
+  margin: 50px 0px 20px 0px;
+  padding: 10px 0px;
+  border-bottom: solid 4px #0169a4;
 }
 
 h1 {
