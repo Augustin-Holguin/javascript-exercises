@@ -14,8 +14,8 @@ $(document).ready(function(){
           $("header").css('color', '#59626a');
           $("header img").css('visibility', 'visible');
        } else {
-          $("header").css('background', '#f65a5b');
-          $("header").css('color', '#f65a5b');
+          $("header").css('background', '#f66a6b');
+          $("header").css('color', '#f66a6b');
           $("header img").css('visibility', 'hidden');
        }
    });
