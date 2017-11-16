@@ -169,3 +169,36 @@ button {
   color: white;
   font-weight: bold;
 }
+
+button#reseter {
+  background: #FF9CA1;
+  border-color: #FF9CA1;
+}
+
+button#elre1 {
+  background: #F58C5B;
+  border-color: #F58C5B;
+  width: 150px;
+  height: 60px;
+}
+
+button#elre2 {
+  background: #8F6970;
+  border-color: #8F6970;
+  width: 150px;
+  height: 60px;
+}
+
+button#elre3 {
+  background: #1CA6AB;
+  border-color: #1CA6AB;
+  width: 150px;
+  height: 60px;
+}
+
+button#elre4 {
+  background: #5AD384;
+  border-color: #5AD384;
+  width: 150px;
+  height: 60px;
+}
