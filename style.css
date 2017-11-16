@@ -54,6 +54,19 @@ header-scroll {
   font-size: 1.5em;
 }
 
+.sommaire {
+  position: fixed;
+  box-sizing: border-box;
+  margin-top: 85px;
+  margin-right: 40px;
+  margin-left: 77%;
+  width: 250px;
+  height: 300px;
+  background: white;
+  border-radius: 5px;
+  border: solid 3px #f0f0f0;
+}
+
 .bio {
   position: fixed;
   box-sizing: border-box;
@@ -125,11 +138,11 @@ header-scroll {
 }
 
 .subtitle-section {
-  background: #f66a6b;
-  color: white;
+  background: #f4f7f9;
+  color: #59626a;
   margin: 50px 0px 20px 0px;
   padding: 10px 0px;
-  border-bottom: solid 4px #3085b5;
+  border-bottom: solid 3px #3085b5;
 }
 
 h1 {

@@ -33,6 +33,13 @@
       </div>
     </div>
 
+    <div class="sommaire">
+      Sections
+      Maths with JavaScript
+      JavaScript Validation with Regular Expression
+      Document Object Model
+    </div>
+
     <div class="background-color">
 
       <div class="empty">
@@ -55,6 +62,24 @@
         <h3>Page printer</h3>
         <button type="button" onClick="print_current_page();">Print page</button>
         <script type="text/javascript" src="printcontent.js"></script>
+      </div>
+
+      <!-- IS THIS STRING A PALINDROME -->
+      <div class="exercise">
+        <h3>Palindrome checker</h3>
+        <p>
+          Please enter the word you want to check
+        </p><br />
+        <form>
+          <input id="palindrome" type="text"/><br /><br />
+        </form>
+        <button type="button" onClick="palindromeChecker()">Check</button><br /><br />
+          <div id="palindromeResult"></div>
+        <script type="text/javascript" src="palindrome.js"></script>
+      </div>
+
+      <div class="subtitle-section">
+        <h2>Maths with JavaScript</h2>
       </div>
 
       <!-- AREA OF TRIANGLE -->
@@ -115,20 +140,6 @@
         <span id="numberReverse"></span>
         </p>
         <script type="text/javascript" src="numberreverser.js"></script>
-      </div>
-
-      <!-- IS THIS STRING A PALINDROME -->
-      <div class="exercise">
-        <h3>Palindrome checker</h3>
-        <p>
-          Please enter the word you want to check
-        </p><br />
-        <form>
-          <input id="palindrome" type="text"/><br /><br />
-        </form>
-        <button type="button" onClick="palindromeChecker()">Check</button><br /><br />
-          <div id="palindromeResult"></div>
-        <script type="text/javascript" src="palindrome.js"></script>
       </div>
 
       <!-- PRIME NUMBER CHECKER -->
@@ -215,6 +226,18 @@
 
         <p id="paragraphStyle">
           I'm the poor paragraph that you'll be playing around with. Did I really deserve what you're about to do to me? I mean, I think I look pretty damn good the way I am. Why would do this to me then? Nevertheless, if you ever decide to break my heart and proceed with this makeup session, please be gentle  ;)
+        </p>
+
+        <script type="text/javascript" src="DOMone.js"></script>
+      </div>
+
+      <!-- REMOVE ELEMENTS -->
+      <div class="exercise">
+        <h3>Element remover</h3>
+        <br />
+        <button type="button" onClick="styleOne()">EL 1</button>
+
+        <p id="paragraphStyle">
         </p>
 
         <script type="text/javascript" src="DOMone.js"></script>
