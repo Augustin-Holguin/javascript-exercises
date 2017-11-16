@@ -61,10 +61,20 @@ header-scroll {
   margin-right: 40px;
   margin-left: 77%;
   width: 250px;
-  height: 300px;
+  height: auto;
   background: white;
   border-radius: 5px;
   border: solid 3px #f0f0f0;
+}
+
+.sections {
+  line-height: 40px;
+  margin: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  background: #E0E0E0;
+  color: #59626a;
+  cursor: pointer;
 }
 
 .bio {
@@ -168,6 +178,7 @@ button {
   margin-right: 10px;
   color: white;
   font-weight: bold;
+  cursor: pointer;
 }
 
 button#reseter {

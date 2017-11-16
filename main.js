@@ -21,3 +21,9 @@ $(document).ready(function(){
    });
     }
 });
+
+function goToSection() {
+  var maths = document.getElementById("");
+  var regex = document.getElementById("");
+  var dom = document.getElementById("");
+}
