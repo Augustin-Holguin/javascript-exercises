@@ -27,8 +27,8 @@ body {
 header {
   margin: auto;
   line-height: 50px;
-  background: #f66a6b;
-  color: #f66a6b;
+  background: #f65a5b;
+  color: #f65a5b;
   position: fixed;
   width: 100%;
   box-shadow: 0px 2px 8px 1px #ccc;
@@ -75,6 +75,12 @@ header-scroll {
   background: #E0E0E0;
   color: #59626a;
   cursor: pointer;
+}
+
+.sections:hover {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: gold;
 }
 
 .bio {
@@ -145,6 +151,12 @@ header-scroll {
   margin-top: 30px;
   padding-top: 20px;
   border-top: solid 2px #f65a5b;
+}
+
+.exercise-sans-border {
+  width: 350px;
+  margin: auto;
+  padding-top: 10px;
 }
 
 .subtitle-section {
